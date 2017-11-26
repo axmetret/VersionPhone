@@ -38,37 +38,49 @@ public class MainActivity extends AppCompatActivity {
         textView8.setText("CPU ABI:" + " " + Build.CPU_ABI);
 
         TextView textView9 = (TextView) findViewById(R.id.textView9);
-        textView9.setText("BOOTLOADER:" + " " + Build.BOOTLOADER);
+        textView9.setText("Bootloader:" + " " + Build.BOOTLOADER);
 
         TextView textView10 = (TextView) findViewById(R.id.textView10);
-        textView10.setText("BOARD:" + " " + Build.BOARD);
+        textView10.setText("Board:" + " " + Build.BOARD);
 
         TextView textView11 = (TextView) findViewById(R.id.textView11);
-        textView11.setText("DEVICE:" + " " + Build.DEVICE);
+        textView11.setText("Device:" + " " + Build.DEVICE);
 
         TextView textView12 = (TextView) findViewById(R.id.textView12);
-        textView12.setText("DISPLAY:" + " " + Build.DISPLAY);
+        textView12.setText("Display:" + " " + Build.DISPLAY);
 
         TextView textView13 = (TextView) findViewById(R.id.textView13);
-        textView13.setText("HARDWARE:" + " " + Build.HARDWARE);
+        textView13.setText("Hardware:" + " " + Build.HARDWARE);
 
         TextView textView14 = (TextView) findViewById(R.id.textView14);
-        textView14.setText("HOST:" + " " + Build.HOST);
+        textView14.setText("Host:" + " " + Build.HOST);
 
         TextView textView15 = (TextView) findViewById(R.id.textView15);
-        textView15.setText("TAGS:" + " " + Build.TAGS);
+        textView15.setText("Tags:" + " " + Build.TAGS);
 
         TextView textView16 = (TextView) findViewById(R.id.textView16);
-        textView16.setText("TIME:" + " " + Build.TIME);
+        textView16.setText("Time:" + " " + Build.TIME);
 
         TextView textView17 = (TextView) findViewById(R.id.textView17);
-        textView17.setText("TYPE:" + " " + Build.TYPE);
+        textView17.setText("Type:" + " " + Build.TYPE);
 
         TextView textView18 = (TextView) findViewById(R.id.textView18);
-        textView18.setText("USER:" + " " + Build.USER);
+        textView18.setText("User:" + " " + Build.USER);
 
         TextView textView19 = (TextView) findViewById(R.id.textView19);
-        textView19.setText("RADIO:" + " " + Build.getRadioVersion());
+        textView19.setText("Radio:" + " " + Build.getRadioVersion());
+
+        TextView textView20 = (TextView) findViewById(R.id.textView20);
+        textView20.setText("Base_OS:" + " " + Build.VERSION.BASE_OS);
+
+        TextView textView21 = (TextView) findViewById(R.id.textView21);
+        textView21.setText("Codename:" + " " + Build.VERSION.CODENAME);
+
+        TextView textView22 = (TextView) findViewById(R.id.textView22);
+        textView22.setText("incremental:" + " " + Build.VERSION.INCREMENTAL);
+
+        TextView textView23 = (TextView) findViewById(R.id.textView23);
+        textView23.setText("Security patch:" + " " + Build.VERSION.SECURITY_PATCH);
 
 
     }
