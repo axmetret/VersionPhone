@@ -82,7 +82,6 @@ public class MainActivity extends AppCompatActivity {
         TextView textView23 = (TextView) findViewById(R.id.textView23);
         textView23.setText("Security patch:" + " " + Build.VERSION.SECURITY_PATCH);
 
-
     }
 }
 
